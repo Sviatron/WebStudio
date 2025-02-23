@@ -12,3 +12,9 @@
 .footer {
   background-color: var(--footer-color, #2f303a);
 }
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.webstudio-title {
+  font-family: "Raleway", sans-serif;
+}
