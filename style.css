@@ -6,18 +6,118 @@
   --header-color: #ffffff;
   --footer-color: #2f303a;
 }
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+}
+/*Header*/
 .header {
   background-color: var(--header-color, #ffffff);
 }
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+.navigation-title {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  color: var(--navigation-title);
+}
+.navigation-subtitle {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  color: var(--text-color);
+}
+/*Section One*/
+.section-one {
+  background-color: var(--footer-color);
+}
+.one-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+  color: var(--header-color);
+}
+.one-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 6%;
+  color: var(--header-color);
+  background-color: var(--axent-color);
+}
+/*Section Two*/
+.section-two {
+  background-color: var(--header-color);
+}
+.two-list {
+  list-style: none;
+}
+.two-title {
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--navigation-title);
+}
+.two-text {
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: var(--text-color);
+}
+/*Section Three*/
+.section-three {
+  background-color: var(--header-color);
+}
+.three-list {
+  list-style: none;
+}
+.three-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--navigation-title);
+}
+/*Section Four*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--navigation-title);
+}
+.team-list {
+  list-style: none;
+}
+.team-mini-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+}
+/*Footer*/
 .footer {
   background-color: var(--footer-color, #2f303a);
 }
-.text-roboto {
-  font-family: "Roboto", sans-serif;
+.footer-text {
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: var(--header-color);
 }
-.webstudio-title {
-  font-family: "Raleway", sans-serif;
-}
-.section-title {
-  text-align: center;
+.footer-text-transformer {
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: #ffffff 60%;
 }
