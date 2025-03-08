@@ -12,6 +12,9 @@ body {
   font-size: 14px;
   align-items: center;
 }
+a {
+  text-decoration: none;
+}
 /*Header*/
 .header {
   background-color: var(--header-color, #ffffff);
