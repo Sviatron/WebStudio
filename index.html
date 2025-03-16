@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <header class="header">
+    <header class="container header">
       <a href="" class="logo">WebStudio</a>
       <nav class="navigation">
         <ul>
@@ -28,13 +28,16 @@
         <li><a href="" class="navigation-subtitle">+38 096 111 11 11</a></li>
       </ul>
     </header>
+
     <main>
       <section class="section-one">
+        <div class="container">
         <h1 class="one-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="one-button">Замовити послугу</button>
+        </div>
       </section>
 
-      <section class="section-two">
+      <section class="container section-two">
         <ul class="two-list">
           <li>
             <h4 class="two-title">УВАГА ДО ДЕТАЛЕЙ</h4>
@@ -66,50 +69,57 @@
         </ul>
         </section>
 
-        <section class="section-three">
+        <section class="container section-three">
         <h3 class="three-title">Чим ми займаємося</h3>
         <ul class="three-list">
-          <li><img src="./images/drawing.png" alt="" /></li>
-          <li><img src="./images/laptop.png" alt="" /></li>
-          <li><img src="./images/iPad.png" alt="" /></li>
+          <li><img class="three-img" src="./images/drawing.png" alt="" /></li>
+          <li><img class="three-img" src="./images/laptop.png" alt="" /></li>
+          <li><img class="three-img" src="./images/iPad.png" alt="" /></li>
         </ul>
       </section>
 
       <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-item">
-            <img src="./images/lig.jpg" alt="man1" class="team-image"/>
+            <img class="team-img" src="./images/lig.jpg" alt="man1" class="team-image"/>
             <h3 class="team-mini-title">Ігор Дем'яненко</h4>
             <p class="team-text"> Product Designer</p>
           </li>
           <li class="team-item">
-            <img src="./images/lia.jpg" alt="woman" class="team-image"/>
+            <img class="team-img" src="./images/lia.jpg" alt="woman" class="team-image"/>
             <h3 class="team-mini-title">Ольга Рєпіна</h4>
             <p class="team-text">Frontend Developer</p>
           </li>
           <li class="team-item">
-            <img src="./images/liag.jpg" alt="man2" class="team-image"/>
+            <img class="team-img" src="./images/liag.jpg" alt="man2" class="team-image"/>
             <h3 class="team-mini-title">Микола Тарасов</h4>
             <p class="team-text">Marketing</p>
           </li>
           <li class="team-item">
-            <img src="./images/liaga.jpg" alt="man3" class="team-image">
+            <img class="team-img" src="./images/liaga.jpg" alt="man3" class="team-image">
             <h3 class="team-mini-title">Михайло Єрмаков</h4>
             <p class="team-text">UI Designer</p1>
           </li>
         </ul>
+        </div>
       </section>
     </main>
+
+
+
     <footer class="footer">
-      <a href="" class="logo">WebStudio</a>
+      <div class="container">
+      <a href="" class="footer-logo">WebStudio</a>
       <address class="footer-text">
         м. Київ, пр-т Лесі Українки, 26
         </address>
         <ul>
-        <li><a href="mailto:info@devstudio.com" class="footer-text-transformer">info@devstudio.com</a></li>
+        <li><a href="mailto:info@devstudio.com" class="footer-text">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="footer-text-transformer">+38 096 111 11 11</a></li>
         </ul>
+        </div>
     </footer>
   </body>
 </html>
