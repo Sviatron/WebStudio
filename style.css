@@ -227,7 +227,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: var(--axent-color);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
   padding-top: 30px;
@@ -236,7 +236,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: var(--header-color);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
 }
