@@ -7,39 +7,42 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header class="header">
-      <a href="">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="index.html" class="navigation-title">Студія</a></li>
-          <li>
-            <a href="portfolio.html" class="navigation-title">Портфоліо</a>
-          </li>
-          <li><a href="">Контакти</a></li>
+    
+    <header class="container header-port">
+      <a href="" class="logo">Web<span class="header-span">Studio</span></a>
+      <nav class="navigation">
+        <ul class="navigation-list-portfolio">
+          <li><a href="index.html" class="navigation-title" >Студія</a></li>
+          <li><a href="portfolio.html" class="navigation-title">Портфоліо</a></li>
+          <li><a href="" class="navigation-title">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="">info@devstudio.com</a></li>
-        <li><a href="">+38 096 111 11 11</a></li>
+      <ul class="navigation-list-second">
+        <li><a href="" class="navigation-subtitle">info@devstudio.com</a></li>
+        <li><a href="" class="navigation-subtitle">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
-      <section>
-        <ul>
-          <li><button type="button">Усі</button></li>
-          <li><button type="button">Веб-Сайти</button></li>
-          <li><button type="button">Додатки</button></li>
-          <li><button type="button">Дезайн</button></li>
-          <li><button type="button">Маркетинг</button></li>
+      <section class="container section-buttons">
+        <ul class="buttons-list">
+          <li><button type="button" class="btn">Усі</button></li>
+          <li><button type="button" class="btn">Веб-Сайти</button></li>
+          <li><button type="button" class="btn">Додатки</button></li>
+          <li><button type="button" class="btn">Дезайн</button></li>
+          <li><button type="button" class="btn">Маркетинг</button></li>
         </ul>
       </section>
 
-      <section>
-        <ul>
+      <section class="container section-photos">
+        <ul class="photos-list">
           <li>
             <img src="./images/img.png" alt="" />
             <h3>Технокряк</h3>
@@ -89,12 +92,16 @@
       </section>
     </main>
     <footer class="footer">
-      <a>WebStudio</a>
-      <address>м. Київ, пр-т Лесі Українки, 26</address>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container footer-div">
+      <a href="" class="footer-logo">Web<span class="footer-span">Studio</span></a>
+      <address class="footer-text">
+        м. Київ, пр-т Лесі Українки, 26
+        </address>
+        <ul class="footer-list">
+        <li><a href="mailto:info@devstudio.com" class="footer-text">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111" class="footer-text-transformer">+38 096 111 11 11</a></li>
+        </ul>
+        </div>
     </footer>
   </body>
 </html>
