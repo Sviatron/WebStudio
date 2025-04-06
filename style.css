@@ -47,6 +47,7 @@ body {
   background-color: var(--header-color, #ffffff);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -195,18 +196,24 @@ body {
   gap: 30px;
   padding-bottom: 60px;
 }
+.team-item {
+  background-color: #fff;
+}
 .team-mini-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3%;
   text-align: center;
+  margin-bottom: 10px;
 }
 .team-text {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3%;
   text-align: center;
+  padding-bottom: 30px;
+  color: #757575;
 }
 .team-img {
   width: 270px;
@@ -280,7 +287,9 @@ body {
   background-color: var(--header-color, #ffffff);
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #ECECEC
+  border-bottom: 1px solid #ECECEC;
+  align-items: center;
+  
 } 
 
 /*Section one*/
