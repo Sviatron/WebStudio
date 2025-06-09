@@ -319,7 +319,7 @@ body {
 .clients-icon {
   width: 63px;
   height: 61px;
-  fill: #afb1b8;
+  fill: #AFB1B8;
 }
 .clients-icon:hover {
   fill: #2196f3;
@@ -368,7 +368,7 @@ body {
 
 /*Portfolio*/
 
-/*Header and footer already done because the yare the same in every website*/
+/*Header and footer already done because they are the same in every website*/
 
 /*header - portfolio*/
 .navigation-list-portfolio {
