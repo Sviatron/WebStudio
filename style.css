@@ -53,20 +53,6 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header-icon-envelope {
-  width: 16px;
-  height: 12px;
-  fill: #757575;
-}
-.header-icon-phone {
-  width: 10px;
-  height: 16px;
-  fill: #757575;
-}
-.header-icon-envelope:hover,
-.header-icon-phone:hover {
-  fill: #2196F3;
-}
 .logo {
   font-family: "Raleway", sans-serif;
   color: var(--axent-color);
@@ -225,6 +211,24 @@ body {
   margin-bottom: 50px;
   text-align: center;
 }
+.like-title {
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 3%;
+text-align: center;
+text-transform: uppercase;
+color: #fff;
+padding: 27px 116px;
+position: absolute;
+  display: block;
+  background-color: #2F303ACC;
+  bottom: -105.6%;
+}
+.three-img {
+  width: 370px;
+  height: 294px;
+}
 /*Section Four*/
 .team {
   background-color: #f5f4fa;
@@ -242,7 +246,6 @@ body {
 .team-list {
   list-style: none;
   display: flex;
-  justify-content: center;
   gap: 30px;
   padding-bottom: 60px;
 }
@@ -282,19 +285,15 @@ body {
 .team-sm-list {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
-}
-.team-sm-link {
-  border-radius: 50%;
-  padding: 12px;
-  display: inline-block;
+  gap: 25px;
+  padding-bottom: 30px;
 }
 .team-sm-link:hover {
   background-color: #2196f3;
   border: #2196f3;
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
   fill: #ffffff;
 }
 .team-icon {
@@ -338,7 +337,7 @@ body {
 .clients-icon {
   width: 63px;
   height: 61px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 .clients-icon:hover {
   fill: #2196f3;
@@ -347,14 +346,12 @@ body {
 .footer {
   background-color: var(--footer-color, #2f303a);
   display: flex;
-  justify-content: space-between;
+  justify-content: column;
 }
 .footer-div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 10px;
-  margin-left: 215px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -386,45 +383,10 @@ body {
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-sm-list {
-  display: flex;
-  gap: 10px;
-  padding-bottom: 30px;
-}
-.footer-sm-link {
-  background-color: #FFFFFF1A;
-  border-radius: 50%;
-  padding: 12px;
-}
-.footer-sm-link:hover {
-  background-color: #2196f3;
-  border: #2196f3;
-}
-.footer-icon {
-  width: 20px;
-  height: 20px;
-  padding: 12px;
-  fill: #fff;
-}
-.footer-sm-link:hover .footer-icon {
-  fill: #ffffff;
-}
-.footer-sm-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 3%;
-text-transform: uppercase;
-color: #fff;
-margin-bottom: 20px;
-}
-.footer-control {
-  margin-top: 36px;
-  margin-right: 806px;
-}
+
 /*Portfolio*/
 
-/*Header and footer already done because they are the same in every website*/
+/*Header and footer already done because the yare the same in every website*/
 
 /*header - portfolio*/
 .navigation-list-portfolio {
