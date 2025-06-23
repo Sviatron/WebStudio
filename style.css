@@ -113,7 +113,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(./images/section-img.png);
+    url(./images/hero-img.png);
 }
 .one-title {
   font-weight: 900;
@@ -142,7 +142,85 @@ body {
 
   box-shadow: 0px 4px 4px 0px #00000026;
 }
+.hero-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 20px;
+}
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.hero-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: var(--axent-color);
+}
+.hero-button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 52px;
+  background-color: #2196f3;
+  border: none;
+}
+.hero-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #757575;
+}
+.hero-input {
+  width: 448px;
+  height: 40px;
+}
+.icon-close {
+  border: 1px solid #0000001a;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  fill: #000;
+  background-position: center;
+  padding: 6px 6px 6px 5.3px;
+}
+.modal {
+  width: 528px;
+  height: 581px;
+  background-color: white;
 
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+}
+.backdrop {
+  position: fixed;
+  background-color: #19191975;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.is-hidden {
+  display: none;
+}
 /*Section Two*/
 .section-two {
   background-color: var(--header-color);
@@ -202,6 +280,9 @@ body {
   gap: 30px;
   padding-bottom: 95px;
 }
+.three-item {
+  position: relative;
+}
 .three-title {
   font-weight: 700;
   font-size: 36px;
@@ -212,18 +293,19 @@ body {
   text-align: center;
 }
 .like-title {
-font-weight: 700;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: 3%;
-text-align: center;
-text-transform: uppercase;
-color: #fff;
-padding: 27px 116px;
-position: absolute;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 27px 0;
+  width: 100%;
+  position: absolute;
   display: block;
-  background-color: #2F303ACC;
-  bottom: -105.6%;
+  background-color: #2f303acc;
+  bottom: 2px;
 }
 .three-img {
   width: 370px;
@@ -346,7 +428,7 @@ position: absolute;
 .footer {
   background-color: var(--footer-color, #2f303a);
   display: flex;
-  justify-content: column;
+  justify-content: center;
 }
 .footer-div {
   display: flex;
@@ -360,7 +442,7 @@ position: absolute;
   font-size: 26px;
   line-height: 100%;
   letter-spacing: 3%;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .footer-span {
   font-family: "Raleway", sans-serif;
@@ -383,7 +465,54 @@ position: absolute;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
 }
-
+.footer-form {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 453px;
+  top: 2700px;
+}
+.footer-label {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.footer-input {
+  border: 1px solid #ffffff4d;
+  padding: 15px 200px 15px 16px;
+  color: #ffffff99;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  background-color: transparent;
+  border-radius: 4px;
+}
+.send-img {
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  align-items: center;
+}
+.footer-btn-send {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #2196f3;
+  color: #ffffff;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 4px;
+}
 /*Portfolio*/
 
 /*Header and footer already done because the yare the same in every website*/

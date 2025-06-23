@@ -32,10 +32,30 @@
     </header>
 
     <main>
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <button data-modal-close>
+          <svg class="icon-close">
+            <use href="./images/symboldefs.svg#icon-close"></use>
+          </svg>
+          </button>
+          <h3 class="hero-title">Залиште свої дані, ми вам передзвонимо</h3>
+          <form class="hero-form">
+          <label class="hero-label" for="">Ім'я<input type="text" class="hero-input"></label>
+          <label class="hero-label" for="">Телефон<input type="tel" class="hero-input"></label>
+          <label class="hero-label" for="">Пошта<input type="email" class="hero-input"></label>
+          <label class="hero-label" for="">Коментар<input placeholder="Введіть текст" type="text" class="hero-input"></label>
+          <label for="" class="hero-label">Погоджуюся з розсилкою та приймаю <a class="hero-link">Умови договору</a><input type="checkbox" class="checkbox"></label>
+          <button type="button" class="hero-button">Відправити</button>
+          </form> 
+        </div>
+      </div>
+
       <section class="section-one">
         <div class="container">
         <h1 class="one-title">Ефективні рішення для <br> вашого бізнесу</h1>
-        <button type="button" class="one-button">Замовити послугу</button>
+        <button type="button" class="one-button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
 
@@ -74,9 +94,9 @@
         <section class="container section-three">
         <h3 class="three-title">Чим ми займаємося</h3>
         <ul class="three-list">
-          <li><img class="three-img" src="./images/drawing.png" alt=""/><h3 class="like-title">Десктопі додатки</h3></li>
-          <li><img class="three-img" src="./images/laptop.png" alt=""/> <h3 class="like-title">Мобільні додатки</h3></li>
-          <li><img class="three-img" src="./images/iPad.png" alt=""/>   <h3 class="like-title">Дизайнер рішення</h3></li>
+          <li class="three-item"><img class="three-img" src="./images/drawing.png" alt=""/><h3 class="like-title">Десктопі додатки</h3></li>
+          <li class="three-item"><img class="three-img" src="./images/laptop.png" alt=""/> <h3 class="like-title">Мобільні додатки</h3></li>
+          <li class="three-item"><img class="three-img" src="./images/iPad.png" alt=""/>   <h3 class="like-title">Дизайнер рішення</h3></li>
         </ul>
       </section>
 
@@ -294,7 +314,14 @@
         <li><a href="mailto:info@devstudio.com" class="footer-text">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111" class="footer-text-transformer">+38 096 111 11 11</a></li>
         </ul>
+        <form action="" class="footer-form">
+          <div class="label-contain">
+          <label class="footer-label">Підпишіться на розсилку
+            <input type="text" class="footer-input" placeholder="E-mail"></label></div>
+            <button type="button" class="footer-btn-send">Підписатися<img src="./images/icon-send.png" alt="send" class="send-img"></button>
+        </form>
         </div>
     </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
