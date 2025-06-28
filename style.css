@@ -446,7 +446,7 @@ body {
 }
 .footer-div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 10px;
 }
 .footer-logo {
@@ -466,9 +466,7 @@ body {
   line-height: 100%;
   letter-spacing: 3%;
 }
-.footer-list {
-  padding-bottom: 30px;
-}
+
 .footer-text {
   line-height: 1.7;
   letter-spacing: 3%;
