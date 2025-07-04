@@ -116,6 +116,19 @@ body {
   line-height: 1.17;
   letter-spacing: 2%;
   color: var(--navigation-title);
+  position: relative;
+}
+.navigation-title:hover::after {
+  content: "";
+  display: inline-block;
+  background-color: #2196f3;
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  top: 28px;
+  left: 0;
+  z-index: 3;
+  border-radius: 2px;
 }
 .navigation-subtitle {
   font-weight: 500;
