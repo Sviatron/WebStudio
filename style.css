@@ -65,6 +65,29 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.navigation-icon-env {
+  width: 16px;
+  height: 12px;
+  fill: #757575;
+  justify-content: center;
+  overflow: visible;
+  align-items: center;
+  margin-right: 7px;
+}
+.navigation-icon-tel {
+  width: 10px;
+  height: 16px;
+  fill: #757575;
+  justify-content: center;
+  overflow: visible;
+  margin-right: 7px;
+}
+.navigation-subtitle:hover .navigation-icon-env {
+  fill: var(--axent-color);
+}
+.navigation-subtitle:hover .navigation-icon-tel {
+  fill: var(--axent-color);
+}
 .header-span {
   font-family: "Raleway", sans-serif;
   color: #000;
