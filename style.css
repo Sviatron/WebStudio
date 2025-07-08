@@ -432,19 +432,23 @@ body {
   height: 260px;
   margin-bottom: 30px;
 }
-
 .team-sm-list {
   display: flex;
   justify-content: center;
-  gap: 25px;
-  padding-bottom: 30px;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.team-sm-link {
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
 }
 .team-sm-link:hover {
   background-color: #2196f3;
   border: #2196f3;
-  border-radius: 50%;
-  padding: 12px;
-  display: inline-block;
+
   fill: #ffffff;
 }
 .team-icon {
@@ -531,6 +535,44 @@ body {
   line-height: 1.7;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-sm-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+
+}
+.footer-sm-link {
+  border-radius: 50%;
+  padding: 12px;
+  display: inline-block;
+  background-color: #ffffff1a;
+}
+.footer-sm-link:hover {
+  background-color: #2196f3;
+  border: #2196f3;
+
+  fill: #ffffff;
+}
+.footer-icon {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+}
+.footer-sm-link:hover .footer-icon {
+  fill: #ffffff;
+}
+.sm-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  margin-left: 70px;
+  margin-bottom: 20px;
 }
 .footer-form {
   display: flex;
