@@ -242,16 +242,19 @@ body {
   position: relative;
   border-radius: 4px;
   margin-top: 4px;
+  border: 1px solid #21212133;
 }
 .hero-textarea {
   width: 448px;
   height: 120px;
   padding: 12px 16px;
+  resize: none;
+  margin-top: 4px;
 }
 .hero-input:hover,
 .hero-input:focus,
 .hero-input:active {
-  border-color: #2196f3;
+  border: 1px solid #2196f3;
 }
 .hero-input-icon-name {
   position: absolute;
@@ -260,14 +263,14 @@ body {
   z-index: 10;
 }
 .hero-input-icon-tel {
-   position: absolute;
+  position: absolute;
   bottom: 43%;
   left: 10%;
   z-index: 10;
 }
 .hero-input-icon-mail {
   position: absolute;
-  bottom: 30%;
+  bottom: 31%;
   left: 10%;
   z-index: 10;
 }
@@ -276,7 +279,6 @@ body {
   fill: #2196f3;
 }
 .icon-close {
-  border: 1px solid #0000001a;
   border-radius: 50%;
   width: 30px;
   height: 30px;
