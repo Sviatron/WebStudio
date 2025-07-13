@@ -227,6 +227,7 @@ body {
   letter-spacing: 1%;
   color: #757575;
   align-items: center;
+  position: relative;
 }
 .hero-input-title {
   font-weight: 400;
@@ -240,8 +241,39 @@ body {
   padding: 12px 42px;
   position: relative;
   border-radius: 4px;
+  margin-top: 4px;
 }
-.hero-input-icon {
+.hero-textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+}
+.hero-input:hover,
+.hero-input:focus,
+.hero-input:active {
+  border-color: #2196f3;
+}
+.hero-input-icon-name {
+  position: absolute;
+  bottom: 56%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input-icon-tel {
+   position: absolute;
+  bottom: 43%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input-icon-mail {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input:hover ~ .hero-input-icon,
+.hero-input:focus ~ .hero-input-icon {
+  fill: #2196f3;
 }
 .icon-close {
   border: 1px solid #0000001a;
