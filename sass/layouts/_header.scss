@@ -1,0 +1,39 @@
+.header {
+  background-color: var(--header-color, #ffffff);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-list {
+  list-style: none;
+  gap: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation-list-second {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.navigation-title {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  color: var(--navigation-title);
+}
+.navigation-subtitle {
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 2%;
+  color: var(--text-color);
+}
+
+.navigation-title:hover,
+.navigation-subtitle:hover {
+  color: var(--axent-color);
+}

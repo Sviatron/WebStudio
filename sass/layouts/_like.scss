@@ -1,0 +1,41 @@
+.section-like {
+  background-color: var(--header-color);
+}
+.like-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 95px;
+}
+.like-item {
+  position: relative;
+}
+.like-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  color: var(--navigation-title);
+  margin-bottom: 50px;
+  text-align: center;
+}
+.like-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 27px 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+  background-color: #2f303acc;
+  bottom: 2px;
+}
+.like-img {
+  width: 370px;
+  height: 294px;
+}

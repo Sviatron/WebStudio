@@ -1,0 +1,37 @@
+.clients {
+  background-color: #ffffff;
+}
+.clients-link {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  padding: 20px 65px;
+  display: inline-block;
+}
+.clients-link:hover {
+  border-color: #2196f3;
+  fill: #2196f3;
+}
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #212121;
+  margin-top: 95px;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-bottom: 95px;
+}
+.clients-icon {
+  width: 63px;
+  height: 61px;
+  fill: #afb1b8;
+}
+.clients-icon:hover {
+  fill: #2196f3;
+}
