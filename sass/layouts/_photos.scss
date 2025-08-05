@@ -20,6 +20,32 @@
   letter-spacing: 3%;
   color: #757575;
 }
+.photos-item {
+  position: relative;
+  overflow: hidden;
+}
+.like-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(125%);
+  background-color: #2196f3e5;
+  padding: 20px;
+  width: 100%;
+  height: 81%;
+  transition: transform 300ms ease-in;
+}
+.photos-item:hover .like-wrap {
+  transform: translateY(0);
+}
+.like-wrap p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 3%;
+  color: #ffffff;
+  margin-top: 37px;
+}
 .photos-item:hover {
   box-shadow: 1px 4px 6px 0px #00000029;
 

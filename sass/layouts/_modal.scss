@@ -1,0 +1,143 @@
+.hero-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #212121;
+  padding-bottom: 20px;
+  margin-top: 40px;
+}
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 40px;
+  gap: 20px;
+}
+.hero-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 3%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  color: var(--axent-color);
+}
+.hero-button {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 6%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px 52px;
+  background-color: #2196f3;
+  border: none;
+  align-items: center;
+}
+.hero-label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #757575;
+  align-items: center;
+  position: relative;
+}
+.hero-input-title {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  color: #757575;
+}
+.hero-input {
+  width: 100%;
+  padding: 12px 42px;
+  position: relative;
+  border-radius: 4px;
+  margin-top: 4px;
+  border: 1px solid #21212133;
+}
+.hero-textarea {
+  width: 448px;
+  height: 120px;
+  padding: 12px 16px;
+  resize: none;
+  margin-top: 4px;
+}
+.hero-input:hover,
+.hero-input:focus,
+.hero-input:active {
+  border: 1px solid #2196f3;
+}
+.hero-input-icon-name {
+  position: absolute;
+  bottom: 56%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input-icon-tel {
+  position: absolute;
+  bottom: 43%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input-icon-mail {
+  position: absolute;
+  bottom: 30%;
+  left: 10%;
+  z-index: 10;
+}
+.hero-input:hover ~ .hero-input-icon,
+.hero-input:focus ~ .hero-input-icon {
+  fill: #2196f3;
+}
+.modal-btn-close {
+  border-radius: 50%;
+  fill: #000;
+  background-position: center;
+  background-color: transparent;
+  width: 30px;
+  height: 30px;
+  display: block;
+  position: absolute;
+  right: 0;
+}
+.icon-close {
+  display: block;
+}
+
+.modal {
+  width: 528px;
+  height: 581px;
+  background-color: white;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999999;
+
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop {
+  position: fixed;
+  background-color: #19191975;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
