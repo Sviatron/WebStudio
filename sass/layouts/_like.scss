@@ -1,17 +1,17 @@
-.section-like {
+.section__like {
   background-color: $header-color;
 }
-.like-list {
+.like__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
   gap: 30px;
   padding-bottom: 95px;
 }
-.like-item {
+.like__item {
   position: relative;
 }
-.like-title {
+.like__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -20,7 +20,7 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.like-title {
+.like__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -35,7 +35,7 @@
   background-color: #2f303acc;
   bottom: 2px;
 }
-.like-img {
+.like__img {
   width: 370px;
   height: 294px;
 }

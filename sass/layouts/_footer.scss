@@ -4,12 +4,12 @@
   justify-content: center;
   padding: 30px 215px;
 }
-.footer-div {
+.footer__div {
   display: flex;
   flex-direction: row;
   gap: 10px;
 }
-.footer-logo {
+.footer__logo {
   font-family: "Raleway", sans-serif;
   color: $axent-color;
   font-weight: 700;
@@ -18,7 +18,7 @@
   letter-spacing: 3%;
   margin-top: 30px;
 }
-.footer-span {
+.footer__span {
   font-family: "Raleway", sans-serif;
   color: $header-color;
   font-weight: 700;
@@ -26,45 +26,45 @@
   line-height: 100%;
   letter-spacing: 3%;
 }
-.footer-text {
+.footer__text {
   line-height: 1.7;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-text-transformer {
+.footer__text__transformer {
   line-height: 1.7;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-sm-list {
+.footer__sm__list {
   display: flex;
   justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
   margin-left: 70px;
 }
-.footer-sm-link {
+.footer__sm__link {
   border-radius: 50%;
   padding: 12px;
   display: inline-block;
   background-color: #ffffff1a;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-sm-link:hover {
+.footer__sm__link--hover {
   background-color: #2196f3;
   border: #2196f3;
 
   fill: #ffffff;
 }
-.footer-icon {
+.footer__icon {
   width: 20px;
   height: 20px;
   fill: #fff;
 }
-.footer-sm-link:hover .footer-icon {
+.footer__sm__link--hover .footer__icon {
   fill: #ffffff;
 }
-.sm-title {
+.sm__title {
   color: #fff;
   font-weight: 700;
   font-size: 14px;
@@ -74,12 +74,12 @@
   margin-left: 70px;
   margin-bottom: 20px;
 }
-.footer-form {
+.footer__form {
   display: flex;
   justify-content: center;
   position: absolute;
 }
-.footer-label {
+.footer__label {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -88,10 +88,10 @@
   color: #fff;
   margin-bottom: 20px;
 }
-.label-contain {
+.label__contain {
   margin-left: 93px;
 }
-.footer-input {
+.footer__input {
   border: 1px solid #ffffff4d;
   padding: 15px 200px 15px 16px;
   color: #ffffff99;
@@ -103,13 +103,13 @@
   background-color: transparent;
   border-radius: 4px;
 }
-.send-img {
+.send__img {
   width: 12px;
   height: 12px;
   margin-left: 10px;
   align-items: center;
 }
-.footer-btn-send {
+.footer__btn__send {
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;

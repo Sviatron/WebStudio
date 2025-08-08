@@ -1,7 +1,7 @@
 .team {
   background-color: #f5f4fa;
 }
-.team-title {
+.team__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -11,13 +11,13 @@
   margin-bottom: 50px;
   text-align: center;
 }
-.team-list {
+.team__list {
   list-style: none;
   display: flex;
   gap: 30px;
   padding-bottom: 60px;
 }
-.team-item {
+.team__item {
   background-color: #fff;
   box-shadow: 0px 2px 1px 0px #00000033;
 
@@ -28,7 +28,7 @@
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-.team-mini-title {
+.team__mini__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
@@ -36,7 +36,7 @@
   text-align: center;
   margin-bottom: 10px;
 }
-.team-text {
+.team__text {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 3%;
@@ -44,12 +44,12 @@
   padding-bottom: 30px;
   color: #757575;
 }
-.team-img {
+.team__img {
   width: 270px;
   height: 260px;
   margin-bottom: 30px;
 }
-.team-sm-list {
+.team__sm__list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -57,22 +57,22 @@
   padding-left: 32px;
   padding-right: 32px;
 }
-.team-sm-link {
+.team__sm__link {
   border-radius: 50%;
   padding: 12px;
   display: inline-block;
   transform: background-color cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-sm-link:hover {
+.team__sm__link--hover {
   background-color: #2196f3;
 
   fill: #ffffff;
 }
-.team-icon {
+.team__icon {
   width: 20px;
   height: 20px;
   fill: #afb1b8;
 }
-.team-sm-link:hover .team-icon {
+.team__sm__link--hover .team__icon {
   fill: #ffffff;
 }

@@ -1,4 +1,4 @@
-.navigation-list-portfolio {
+.navigation__list__portfolio {
   list-style: none;
   gap: 50px;
   margin-top: 25px;
@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
 }
-.header-port {
+.header__port {
   background-color: $header-color;
   display: flex;
   justify-content: space-between;

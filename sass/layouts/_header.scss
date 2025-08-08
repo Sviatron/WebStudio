@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.navigation-icon-env {
+.navigation__icon__env {
   width: 16px;
   height: 12px;
   fill: #757575;
@@ -14,7 +14,7 @@
   margin-right: 7px;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-icon-tel {
+.navigation__icon__tel {
   width: 10px;
   height: 16px;
   fill: #757575;
@@ -23,13 +23,13 @@
   margin-right: 7px;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-subtitle:hover .navigation-icon-env {
+.navigation__subtitle--hover .navigation__icon__env {
   fill: $axent-color;
 }
-.navigation-subtitle:hover .navigation-icon-tel {
+.navigation__subtitle--hover .navigation__icon__tel {
   fill: $axent-color;
 }
-.header-span {
+.header__span {
   font-family: "Raleway", sans-serif;
   color: #000;
   font-weight: 700;
@@ -37,7 +37,7 @@
   line-height: 100%;
   letter-spacing: 3%;
 }
-.navigation-list {
+.navigation__list {
   list-style: none;
   gap: 50px;
   margin-top: 25px;
@@ -45,14 +45,14 @@
   display: flex;
   justify-content: space-between;
 }
-.navigation-list-second {
+.navigation__list__second {
   list-style: none;
   display: flex;
   gap: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.navigation-title {
+.navigation__title {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 2%;
@@ -60,7 +60,7 @@
   position: relative;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation-title:hover::after {
+.navigation__title:hover:--after {
   content: "";
   display: inline-block;
   background-color: #2196f3;
@@ -72,7 +72,7 @@
   z-index: 3;
   border-radius: 2px;
 }
-.navigation-subtitle {
+.navigation__subtitle {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 2%;
@@ -80,7 +80,7 @@
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation-title:hover,
-.navigation-subtitle:hover {
+.navigation__title--hover,
+.navigation__subtitle--hover {
   color: $axent-color;
 }

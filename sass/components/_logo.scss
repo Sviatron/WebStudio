@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
 }
-.header-span {
+.header__span {
   font-family: "Raleway", sans-serif;
   color: #000;
   font-weight: 700;
@@ -18,7 +18,7 @@
   line-height: 100%;
   letter-spacing: 3%;
 }
-.footer-logo {
+.footer__logo {
   font-family: "Raleway", sans-serif;
   color: $axent-color;
   font-weight: 700;
@@ -27,7 +27,7 @@
   letter-spacing: 3%;
   margin-top: 30px;
 }
-.footer-span {
+.footer__span {
   font-family: "Raleway", sans-serif;
   color: $header-color;
   font-weight: 700;
