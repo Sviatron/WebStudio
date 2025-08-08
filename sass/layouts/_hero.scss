@@ -12,7 +12,7 @@
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 6%;
-  color: var(--header-color);
+  color: $header-color;
   margin-top: 200px;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -23,8 +23,8 @@
   font-size: 16px;
   line-height: 1.8;
   letter-spacing: 6%;
-  color: var(--header-color);
-  background-color: var(--axent-color);
+  color: $header-color;
+  background-color: $axent-color;
   border-radius: 4px;
   display: block;
   margin: 0 auto;

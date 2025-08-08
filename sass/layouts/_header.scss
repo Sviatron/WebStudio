@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--header-color, #ffffff);
+  background-color: $header-color;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,10 +24,10 @@
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navigation-subtitle:hover .navigation-icon-env {
-  fill: var(--axent-color);
+  fill: $axent-color;
 }
 .navigation-subtitle:hover .navigation-icon-tel {
-  fill: var(--axent-color);
+  fill: $axent-color;
 }
 .header-span {
   font-family: "Raleway", sans-serif;
@@ -56,7 +56,7 @@
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 2%;
-  color: var(--navigation-title);
+  color: $navigation-title;
   position: relative;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -76,11 +76,11 @@
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 2%;
-  color: var(--text-color);
+  color: $text-color;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation-title:hover,
 .navigation-subtitle:hover {
-  color: var(--axent-color);
+  color: $axent-color;
 }

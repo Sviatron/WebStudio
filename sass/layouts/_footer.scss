@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--footer-color, #2f303a);
+  background-color: $footer-color;
   display: flex;
   justify-content: center;
   padding: 30px 215px;
@@ -11,7 +11,7 @@
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
-  color: var(--axent-color);
+  color: $axent-color;
   font-weight: 700;
   font-size: 26px;
   line-height: 100%;
@@ -20,7 +20,7 @@
 }
 .footer-span {
   font-family: "Raleway", sans-serif;
-  color: var(--header-color);
+  color: $header-color;
   font-weight: 700;
   font-size: 26px;
   line-height: 100%;

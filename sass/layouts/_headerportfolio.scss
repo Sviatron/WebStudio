@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 .header-port {
-  background-color: var(--header-color, #ffffff);
+  background-color: $header-color;
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;

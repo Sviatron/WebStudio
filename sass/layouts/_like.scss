@@ -1,5 +1,5 @@
 .section-like {
-  background-color: var(--header-color);
+  background-color: $header-color;
 }
 .like-list {
   list-style: none;
@@ -16,7 +16,7 @@
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 3%;
-  color: var(--navigation-title);
+  color: $navigation-title;
   margin-bottom: 50px;
   text-align: center;
 }
