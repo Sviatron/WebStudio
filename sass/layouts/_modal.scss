@@ -68,9 +68,9 @@
   resize: none;
   margin-top: 4px;
 }
-.hero__input--hover,
-.hero__input--focus,
-.hero-input--active {
+.hero__input:hover,
+.hero__input:focus,
+.hero-input:active {
   border: 1px solid #2196f3;
 }
 .hero__input__icon__name {
@@ -91,8 +91,8 @@
   left: 10%;
   z-index: 10;
 }
-.hero__input--hover ~ .hero__input__icon,
-.hero__input--focus ~ .hero__input__icon {
+.hero__input:hover ~ .hero__input__icon,
+.hero__input:focus ~ .hero__input__icon {
   fill: #2196f3;
 }
 .modal__btn__close {

@@ -23,10 +23,10 @@
   margin-right: 7px;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation__subtitle--hover .navigation__icon__env {
+.navigation__subtitle:hover .navigation__icon__env {
   fill: $axent-color;
 }
-.navigation__subtitle--hover .navigation__icon__tel {
+.navigation__subtitle:hover .navigation__icon__tel {
   fill: $axent-color;
 }
 .header__span {
@@ -60,7 +60,7 @@
   position: relative;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.navigation__title:hover:--after {
+.navigation__title:hover::after {
   content: "";
   display: inline-block;
   background-color: #2196f3;
@@ -80,7 +80,7 @@
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.navigation__title--hover,
-.navigation__subtitle--hover {
+.navigation__title:hover,
+.navigation__subtitle:hover {
   color: $axent-color;
 }

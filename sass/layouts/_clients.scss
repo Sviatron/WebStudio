@@ -8,11 +8,11 @@
   display: inline-block;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__link--hover {
+.clients__link:hover {
   border-color: #2196f3;
   fill: #2196f3;
 }
-.clients__link--hover .clients__icon {
+.clients__link:hover .clients__icon {
   fill: #2196f3;
 }
 .clients__title {
@@ -37,6 +37,6 @@
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients__icon--hover {
+.clients__icon:hover {
   fill: #2196f3;
 }

@@ -50,7 +50,7 @@
   background-color: #ffffff1a;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__sm__link--hover {
+.footer__sm__link:hover {
   background-color: #2196f3;
   border: #2196f3;
 
@@ -61,7 +61,7 @@
   height: 20px;
   fill: #fff;
 }
-.footer__sm__link--hover .footer__icon {
+.footer__sm__link:hover .footer__icon {
   fill: #ffffff;
 }
 .sm__title {
