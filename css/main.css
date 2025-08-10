@@ -216,6 +216,8 @@ body {
   display: flex;
   background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../../images/hero-img.png);
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../images/hero-img.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .heroic__title {
@@ -277,7 +279,7 @@ body {
   text-align: center;
 }
 
-.like__title {
+.like__lable {
   font-weight: 700;
   font-size: 14px;
   line-height: 100%;
@@ -314,7 +316,7 @@ body {
   margin-top: 95px;
 }
 
-.gallery__item:before {
+.gallery__item::before {
   content: "";
   display: inline-block;
   width: 270px;
@@ -325,20 +327,20 @@ body {
   background-position: center;
 }
 
-.gallery__item:nth-child(1) --before {
-  background-image: url(./images/antenna.png);
+.gallery__item:nth-child(1)::before {
+  background-image: url(../../images/antenna.png);
 }
 
-.gallery__item:nth-child(2) --before {
-  background-image: url(./images/clock.png);
+.gallery__item:nth-child(2)::before {
+  background-image: url(../../images/clock.png);
 }
 
-.gallery__item:nth-child(3) --before {
-  background-image: url(./images/diagram.png);
+.gallery__item:nth-child(3)::before {
+  background-image: url(../../images/diagram.png);
 }
 
-.gallery__item:nth-child(4) --before {
-  background-image: url(./images/astronaut.png);
+.gallery__item:nth-child(4)::before {
+  background-image: url(../../images/astronaut.png);
 }
 
 .gallery__title {
@@ -727,7 +729,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn--hover {
+.btn:hover {
   background-color: #2196f3;
   color: #fff;
   cursor: pointer;
