@@ -40,6 +40,18 @@ body {
   font-size: 14px;
 }
 
+.header__port, .navigation__list__portfolio, .footer__form, .team__sm__list, .gallery__list, .like__list, .navigation__list__second, .navigation__list, .header, .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   color: #2196f3;
@@ -49,12 +61,6 @@ body {
   letter-spacing: 3%;
   margin-top: 25px;
   margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .header__span {
@@ -93,15 +99,6 @@ body {
 
 .header {
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .navigation__icon__env {
@@ -158,22 +155,10 @@ body {
   gap: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .navigation__list__second {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -261,12 +246,6 @@ body {
 
 .like__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 30px;
   padding-bottom: 95px;
 }
@@ -312,12 +291,6 @@ body {
 
 .gallery__list {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   gap: 30px;
   margin-top: 95px;
 }
@@ -427,12 +400,6 @@ body {
 }
 
 .team__sm__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
   padding-left: 32px;
@@ -620,12 +587,6 @@ body {
 }
 
 .footer__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   position: absolute;
 }
 
@@ -685,22 +646,10 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   font-weight: 700px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .header__port {
   background-color: #ffffff;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border-bottom: 1px solid #ececec;
   -webkit-box-align: center;
       -ms-flex-align: center;

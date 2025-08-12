@@ -3,8 +3,7 @@
 }
 .gallery__list {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   gap: 30px;
   margin-top: 95px;
 }

@@ -1,8 +1,6 @@
 .header {
   background-color: $header-color;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @extend %flex;
 }
 .navigation__icon__env {
   width: 16px;
@@ -43,13 +41,11 @@
   gap: 50px;
   margin-top: 25px;
   margin-bottom: 25px;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
 }
 .navigation__list__second {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   gap: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
@@ -80,7 +76,6 @@
   letter-spacing: 2%;
   color: $text-color;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .navigation__title:hover,

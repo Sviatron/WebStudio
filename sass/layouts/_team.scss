@@ -50,8 +50,7 @@
   margin-bottom: 30px;
 }
 .team__sm__list {
-  display: flex;
-  justify-content: center;
+  @extend %flex;
   gap: 10px;
   margin-bottom: 30px;
   padding-left: 32px;

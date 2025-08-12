@@ -3,8 +3,7 @@
 }
 .like__list {
   list-style: none;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   gap: 30px;
   padding-bottom: 95px;
 }

@@ -4,13 +4,11 @@
   margin-top: 25px;
   margin-bottom: 25px;
   font-weight: 700px;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
 }
 .header__port {
   background-color: $header-color;
-  display: flex;
-  justify-content: space-between;
+  @extend %flex;
   border-bottom: 1px solid #ececec;
   align-items: center;
 }
