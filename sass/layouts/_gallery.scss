@@ -4,6 +4,7 @@
 .gallery__list {
   list-style: none;
   @extend %flex;
+  align-items: flex-start;
   gap: 30px;
   margin-top: 95px;
 }
