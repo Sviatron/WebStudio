@@ -3,20 +3,58 @@
 }
 .gallery__list {
   list-style: none;
-  @extend %flex;
-  align-items: flex-start;
-  gap: 30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  
   margin-top: 95px;
+
+  @media (min-width: 768px) {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 95px;
+  }
+
+  @media (min-width: 1200px) {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 95px;
+  }
 }
 .gallery__item::before {
   content: "";
   display: inline-block;
-  width: 270px;
+  width: 330px;
   height: 120px;
   border-radius: 4px;
   background: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
+
+  @media (min-width: 768px) {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+  }
+
+  @media (min-width: 1200px) {
+    content: "";
+    display: inline-block;
+    width: 270px;
+    height: 120px;
+  }
 }
 .gallery__item:nth-child(1)::before {
   background-image: url(./../images/antenna.png);
@@ -37,6 +75,15 @@
   color: $navigation-title;
   margin-top: 30px;
   margin-bottom: 10px;
+  text-align: center;
+
+  @media (min-width:768px) {
+  text-align: left;
+  }
+
+  @media (min-width:1200px) {
+  text-align: left;
+  }
 }
 .gallery__text {
   line-height: 1.7;
@@ -44,4 +91,15 @@
   color: $text-color;
   margin-top: 10px;
   margin-bottom: 95px;
+  max-width: 330px;
+  text-align: center;
+
+  @media (min-width:768px) {
+    max-width: 270px;
+  text-align: left;
+  }
+
+  @media (min-width:1200px) {
+  text-align: left;
+  }
 }

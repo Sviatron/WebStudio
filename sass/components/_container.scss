@@ -1,5 +1,16 @@
 .container {
-  width: 1200px;
-  padding: 0 15px;
+  width: 330px;
+  outline: 3px solid red;
   margin: 0 auto;
+  padding: 0 20px;
+
+  @media (min-width: 768px) {
+    width: 768px;
+    outline: 3px solid rgb(32, 202, 54);
+  }
+
+  @media (min-width: 1200px) {
+    width: 1200px;
+    outline: 3px solid black;
+  }
 }
