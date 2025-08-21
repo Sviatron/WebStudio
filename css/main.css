@@ -406,26 +406,41 @@ body {
 }
 
 .gallery__title {
+  font-family: "Roboto";
   font-weight: 700;
-  line-height: 1.17;
+  font-size: 14px;
+  line-height: 100%;
   letter-spacing: 3%;
+  text-align: center;
+  text-transform: uppercase;
   color: #212121;
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
 }
 @media (min-width: 768px) {
   .gallery__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-transform: uppercase;
     text-align: left;
   }
 }
 @media (min-width: 1200px) {
   .gallery__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-transform: uppercase;
     text-align: left;
   }
 }
 
 .gallery__text {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 3%;
   color: #757575;
@@ -451,14 +466,37 @@ body {
 }
 
 .team__title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-size: 28px;
+  line-height: 100%;
   letter-spacing: 3%;
-  color: #212121;
-  padding-top: 95px;
-  margin-bottom: 50px;
   text-align: center;
+  color: #212121;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .team__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #212121;
+  }
+}
+@media (min-width: 1200px) {
+  .team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    color: #212121;
+    padding-top: 95px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
 }
 
 .team__list {
@@ -534,21 +572,61 @@ body {
 }
 
 .team__mini__title {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 100%;
   letter-spacing: 3%;
   text-align: center;
   margin-bottom: 10px;
 }
+@media (min-width: 768px) {
+  .team__mini__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .team__mini__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
+  }
+}
 
 .team__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 100%;
   letter-spacing: 3%;
   text-align: center;
-  padding-bottom: 30px;
   color: #757575;
+}
+@media (min-width: 768px) {
+  .team__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+  }
+}
+@media (min-width: 1200px) {
+  .team__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
+    padding-bottom: 30px;
+    color: #757575;
+  }
 }
 
 .team__img {

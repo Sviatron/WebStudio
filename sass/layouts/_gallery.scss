@@ -69,23 +69,41 @@
   background-image: url(./../images/astronaut.png);
 }
 .gallery__title {
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 3%;
-  color: $navigation-title;
-  margin-top: 30px;
+  font-family: "Roboto";
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 3%;
+text-align: center;
+text-transform: uppercase;
+color: $navigation-title;
+
+margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
 
   @media (min-width:768px) {
+font-weight: 700;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 3%;
+text-transform: uppercase;
+
   text-align: left;
   }
 
   @media (min-width:1200px) {
+    font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  
   text-align: left;
   }
 }
 .gallery__text {
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 3%;
   color: $text-color;
