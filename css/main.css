@@ -607,6 +607,7 @@ body {
   letter-spacing: 3%;
   text-align: center;
   color: #757575;
+  margin-bottom: 30px;
 }
 @media (min-width: 768px) {
   .team__text {
@@ -624,7 +625,6 @@ body {
     line-height: 1.17;
     letter-spacing: 3%;
     text-align: center;
-    padding-bottom: 30px;
     color: #757575;
   }
 }
