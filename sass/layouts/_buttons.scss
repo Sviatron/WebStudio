@@ -1,9 +1,22 @@
 .buttons__list {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 10px;
   margin-top: 95px;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+  max-width: 326px;
+
+  @media (min-width: 768px) {
+    max-width: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  @media (min-width: 1200px) {
+    max-width: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
 .btn {
   font-family: "Roboto", sans-serif;
