@@ -9,8 +9,8 @@
   @media (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: space-between;
+    align-items: left;
     gap: 27px;
     margin-bottom: 95px;
   }
