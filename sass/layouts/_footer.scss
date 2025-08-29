@@ -25,26 +25,50 @@
 }
 .footer__first__div {
   margin-left: 35px;
+  margin-bottom: 60px;
+
+  @media (min-width: 1200px) {
+    margin-top: 30px;
+  }
 }
+
 .footer__text {
   line-height: 1.7;
   letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
+  color: #ffffff;
+  margin-left: -25px;
+
+  @media (min-width: 1200px) {
+    margin-left: 0;
+  }
 }
-.footer__text__transformer {
+.footer__text__email {
   line-height: 1.7;
   letter-spacing: 3%;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer__text__number {
+  line-height: 1.7;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 7px;
+
+  @media (min-width: 1200px) {
+    margin-left: 0;
+  }
 }
 .footer__sm__list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 
   @media (min-width: 1200px) {
     margin-left: 93px;
   }
+}
+.sm__container {
+  margin-top: 20px;
 }
 .footer__sm__link {
   border-radius: 50%;
@@ -74,16 +98,15 @@
   line-height: 100%;
   letter-spacing: 3%;
   text-transform: uppercase;
-  margin-left: 45px;
+  margin-left: 50px;
   margin-bottom: 20px;
 
   @media (min-width: 1200px) {
-    margin-left: 70px;
+    margin-left: 100px;
   }
 }
 .footer__form {
   @extend %flex;
-  position: absolute;
   flex-direction: column;
 
   @media (min-width: 1200px) {
@@ -98,8 +121,20 @@
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
+  text-align: center;
+  margin-left: 20px;
+
+  @media (min-width: 1200px) {
+    text-align: left;
+    margin-left: 0;
+  }
 }
 .label__contain {
+
+  @media (min-width:768px) {
+    position: absolute;
+  }
+
   @media (min-width: 1200px) {
     margin-left: 93px;
   }
@@ -115,21 +150,22 @@
   vertical-align: middle;
   background-color: transparent;
   border-radius: 4px;
+  margin-bottom: 20px;
 
   @media (min-width: 1200px) {
+    margin-bottom: 30px;
     margin-right: 12px;
   }
 }
 .send__img {
   width: 12px;
   height: 12px;
-  margin-left: 10px;
   align-items: center;
 }
 .footer__btn__send {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 100%;
   letter-spacing: 6%;
   text-align: center;
   vertical-align: middle;
@@ -138,4 +174,5 @@
   padding: 10px 28px;
   border: none;
   border-radius: 4px;
+  margin-bottom: 30px;
 }
