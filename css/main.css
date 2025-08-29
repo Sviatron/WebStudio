@@ -1044,11 +1044,6 @@ body {
   }
 }
 
-@media (min-width: 768px) {
-  .label__contain {
-    position: absolute;
-  }
-}
 @media (min-width: 1200px) {
   .label__contain {
     margin-left: 93px;
