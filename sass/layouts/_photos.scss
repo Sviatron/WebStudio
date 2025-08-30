@@ -41,6 +41,10 @@
   position: relative;
   overflow: hidden;
   border: 1px solid #eeeeee;
+
+  @media (min-width: 768px) {
+    width: 354px;
+  }
 }
 .like__wrap {
   position: absolute;

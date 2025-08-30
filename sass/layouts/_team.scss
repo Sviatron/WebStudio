@@ -1,5 +1,12 @@
 .team {
   background-color: #f5f4fa;
+  padding: 60px 0;
+
+  @media (min-width:1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    
+  }
 }
 .team__title {
   font-family: "Roboto", sans-serif;
@@ -9,8 +16,6 @@
   letter-spacing: 3%;
   text-align: center;
   color: #212121;
-
-  margin-top: 60px;
   margin-bottom: 30px;
 
   @media (min-width: 768px) {
@@ -38,7 +43,6 @@
   display: flex;
   gap: 15px;
   flex-direction: column;
-  padding-bottom: 60px;
   justify-content: center;
   align-items: center;
 
@@ -81,53 +85,53 @@
 }
 .team__mini__title {
   font-family: "Roboto", sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 3%;
-text-align: center;
-margin-bottom: 10px;
- 
-@media (min-width:768px) {
-font-weight: 500;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 3%;
-text-align: center;
-}
-  @media (min-width:1200px) {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 100%;
   letter-spacing: 3%;
   text-align: center;
+  margin-bottom: 10px;
+
+  @media (min-width: 768px) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+  }
+  @media (min-width: 1200px) {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
   }
 }
 .team__text {
   font-family: "Roboto", sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 3%;
-text-align: center;
-color: #757575;
-margin-bottom: 30px;
-
-  @media (min-width:768px) {
-font-weight: 400;
-font-size: 16px;
-line-height: 100%;
-letter-spacing: 3%;
-text-align: center;
-  }
-
-  @media (min-width:1200px) {
-    font-weight: 400;
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 100%;
   letter-spacing: 3%;
   text-align: center;
   color: #757575;
+  margin-bottom: 30px;
+
+  @media (min-width: 768px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 3%;
+    text-align: center;
+  }
+
+  @media (min-width: 1200px) {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 3%;
+    text-align: center;
+    color: #757575;
   }
 }
 .team__img {
