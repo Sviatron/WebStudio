@@ -20,6 +20,11 @@
   <body>
     <header class="container header">
       <a href="" class="logo">Web<span class="header__span">Studio</span></a>
+      <button type="button" class="burger__btn" data-mob-open>
+        <svg class="burger__icon">
+          <use href="./images/symboldefs.svg#burger-menu"></use>
+        </svg>
+      </button>
       <nav class="navigation">
         <ul class="navigation__list">
           <li><a href="index.html" class="navigation__title">Студія</a></li>
@@ -47,6 +52,26 @@
           >
         </li>
       </ul>
+      <div class="burger is-hidden" data-mob>
+        <div class="container">
+          <button type="button" class="burger__btn__close" data-mob-close>
+            <svg class="burger__close">
+              <use href="./images/symboldefs.svg#icon-close"></use>
+            </svg>
+          </button>
+          <nav>
+            <ul class="burger_list">
+              <li><a href="./index.html" class="burger__link">Студія</a></li>
+              <li><a href="./portfolio.html" class="burger__link">Портфоліо</a></li>
+              <li><a href="" class="burger__link">Контакти</a></li>
+            </ul>
+            <ul class="burger__list__second">
+              <li><a href="" class="burger__phone">+38 096 111 11 11</a></li>
+              <li><a href="" class="burger__email">info@devstudio.com</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -441,5 +466,6 @@
       </div>
     </footer>
     <script src="./modal.js"></script>
+    <script src="./mob.js"></script>
   </body>
 </html>

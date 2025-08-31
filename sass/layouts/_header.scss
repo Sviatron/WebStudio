@@ -2,6 +2,12 @@
   background-color: $header-color;
   @extend %flex;
 }
+.navigation {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
 .navigation__icon__env {
   width: 16px;
   height: 12px;
@@ -49,6 +55,11 @@
   gap: 30px;
   margin-top: 25px;
   margin-bottom: 25px;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 .navigation__title {
   font-weight: 500;
@@ -81,4 +92,83 @@
 .navigation__title:hover,
 .navigation__subtitle:hover {
   color: $axent-color;
+}
+.burger__btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+.burger__icon {
+  width: 40px;
+  height: 40px;
+}
+.burger {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+.burger.is-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.burger__btn__close {
+  background-color: transparent;
+  border: transparent;
+}
+.burger__close {
+  width: 40px;
+  height: 40px;
+  left: 0;
+  top: 5px;
+}
+.burger_list {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+  margin: 48px 40px;
+  margin-bottom: 150px;
+}
+.burger__link {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #212121;
+  transition: color 0.3s ease-in;
+}
+.burger__link:hover {
+  color: #2196f3;
+}
+.burger__phone {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #2196f3;
+}
+.burger__email {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #757575;
+}
+.burger__list__second {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  gap: 32px;
 }
