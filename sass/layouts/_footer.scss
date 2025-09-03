@@ -28,12 +28,11 @@
   justify-content: center;
   flex-direction: column;
 
-  @media (min-width:768px) {
+  @media (min-width: 768px) {
     flex-direction: row;
   }
-
-  @media (min-width: 1200px) {
-    margin-top: 30px;
+  @media (min-width:1200px) {
+    margin-top: 25px;
   }
 }
 
@@ -74,6 +73,13 @@
 }
 .sm__container {
   margin-top: 20px;
+  @media (min-width: 768px) {
+    margin-top: 0;
+    margin-left: 200px;
+  }
+  @media (min-width: 1200px) {
+    margin: 0;
+  }
 }
 .footer__sm__link {
   border-radius: 50%;
@@ -142,7 +148,6 @@
     margin-left: 93px;
   }
 }
-
 .footer__input {
   border: 1px solid #ffffff4d;
   padding: 15px;
