@@ -58,15 +58,31 @@
 }
 .gallery__item:nth-child(1)::before {
   background-image: url(./../images/antenna.png);
+  @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {background-image: url(./../../images/antenna@2x.png);}
 }
 .gallery__item:nth-child(2)::before {
   background-image: url(./../images/clock.png);
+  @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {background-image: url(./../../images/clock@2x.png);}
 }
 .gallery__item:nth-child(3)::before {
   background-image: url(./../images/diagram.png);
+  @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {background-image: url(./../../images/diagram@2x.png);}
 }
 .gallery__item:nth-child(4)::before {
   background-image: url(./../images/astronaut.png);
+  @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {background-image: url(./../../images/astronaut@2x.png);}
 }
 .gallery__title {
   font-family: "Roboto";

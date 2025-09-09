@@ -4,9 +4,21 @@
   background-repeat: no-repeat;
   background-position: center;
   padding: 118px 0;
+  @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+  background-image: url(./../../images/hero-mob@2x.png);
+ }
 
   @media (min-width: 768px) {
     background-image: url(./../images/hero-tablet.png);
+    @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+  background-image: url(./../../images/hero-tab@2x.png);
+ }
   }
 
   @media (min-width: 1200px) {
@@ -17,6 +29,12 @@
       ),
       url(./../images/hero-img.png);
     padding: 200px 0;
+    @media (min-device-pixel-ratio: 2),
+ (-webkit-min-device-pixel-ratio: 2),
+ (min-resolution: 192dpi),
+ (min-resolution: 2dppx) {
+  background-image: url(./../../images/hero-img@2x.png);
+ }
   }
 }
 .heroic__title {

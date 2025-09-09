@@ -369,9 +369,19 @@ body {
   background-position: center;
   padding: 118px 0;
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .section__heroic {
+    background-image: url(./../../images/hero-mob@2x.png);
+  }
+}
 @media (min-width: 768px) {
   .section__heroic {
     background-image: url(./../images/hero-tablet.png);
+  }
+}
+@media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
+  .section__heroic {
+    background-image: url(./../../images/hero-tab@2x.png);
   }
 }
 @media (min-width: 1200px) {
@@ -379,6 +389,11 @@ body {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(./../images/hero-img.png);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../images/hero-img.png);
     padding: 200px 0;
+  }
+}
+@media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
+  .section__heroic {
+    background-image: url(./../../images/hero-img@2x.png);
   }
 }
 
@@ -563,17 +578,37 @@ body {
 .gallery__item:nth-child(1)::before {
   background-image: url(./../images/antenna.png);
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .gallery__item:nth-child(1)::before {
+    background-image: url(./../../images/antenna@2x.png);
+  }
+}
 
 .gallery__item:nth-child(2)::before {
   background-image: url(./../images/clock.png);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .gallery__item:nth-child(2)::before {
+    background-image: url(./../../images/clock@2x.png);
+  }
 }
 
 .gallery__item:nth-child(3)::before {
   background-image: url(./../images/diagram.png);
 }
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .gallery__item:nth-child(3)::before {
+    background-image: url(./../../images/diagram@2x.png);
+  }
+}
 
 .gallery__item:nth-child(4)::before {
   background-image: url(./../images/astronaut.png);
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .gallery__item:nth-child(4)::before {
+    background-image: url(./../../images/astronaut@2x.png);
+  }
 }
 
 .gallery__title {
