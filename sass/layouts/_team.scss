@@ -2,10 +2,9 @@
   background-color: #f5f4fa;
   padding: 60px 0;
 
-  @media (min-width:1200px) {
+  @media (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
-    
   }
 }
 .team__title {
@@ -73,10 +72,9 @@
 
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  width: 300px;
 
   @media (min-width: 768px) {
-    width: 300px;
+    width: 354px;
   }
 
   @media (min-width: 1200px) {
@@ -135,11 +133,14 @@
   }
 }
 .team__img {
-  width: 300px;
-  height: 260px;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
   margin-bottom: 30px;
+  @media (min-width: 768px) {
+    width: 354px;
+  }
 
   @media (min-width: 1200px) {
     width: 270px;
@@ -147,10 +148,9 @@
 }
 .team__sm__list {
   @extend %flex;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 30px;
-  padding-left: 32px;
-  padding-right: 32px;
 }
 .team__sm__link {
   border-radius: 50%;
