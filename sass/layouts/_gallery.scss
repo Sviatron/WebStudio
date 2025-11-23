@@ -41,7 +41,7 @@
   background: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto;
+  background-size: 70px;
   padding: 25px 0;
   @media (min-width: 768px) {
     content: "";
@@ -53,6 +53,7 @@
   @media (min-width: 1200px) {
     content: "";
     display: inline-block;
+    background-size: 70px;
     width: 270px;
     height: 120px;
   }

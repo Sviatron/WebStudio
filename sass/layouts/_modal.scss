@@ -5,14 +5,12 @@
   letter-spacing: 3%;
   text-align: center;
   color: #212121;
-  padding-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 20px;
 }
 .hero__form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 40px;
   gap: 20px;
 }
 .hero__link {
@@ -47,6 +45,7 @@
   position: relative;
 }
 .hero__input__title {
+  position: relative;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -54,6 +53,7 @@
   color: #757575;
 }
 .hero__input {
+  display: block;
   width: 100%;
   padding: 12px 42px;
   position: relative;
@@ -62,34 +62,27 @@
   border: 1px solid #21212133;
 }
 .hero__textarea {
-  width: 448px;
+  display: block;
+  width: 100%;
   height: 120px;
   padding: 12px 16px;
   resize: none;
   margin-top: 4px;
+  @media (min-width: 1200px) {
+    width: 100%;
+    height: 120px;
+  }
 }
 .hero__input:hover,
 .hero__input:focus,
 .hero-input:active {
   border: 1px solid #2196f3;
 }
-.hero__input__icon__name {
+.hero__input__icon {
   position: absolute;
-  bottom: 56%;
-  left: 10%;
   z-index: 10;
-}
-.hero__input__icon__tel {
-  position: absolute;
-  bottom: 43%;
-  left: 10%;
-  z-index: 10;
-}
-.hero__input__icon__mail {
-  position: absolute;
-  bottom: 30%;
-  left: 10%;
-  z-index: 10;
+  top: 28px;
+  left: 15px;
 }
 .hero__input:hover ~ .hero__input__icon,
 .hero__input:focus ~ .hero__input__icon {
@@ -100,20 +93,27 @@
   fill: #000;
   background-position: center;
   background-color: transparent;
-  width: 30px;
-  height: 30px;
   display: block;
   position: absolute;
-  right: 0;
+  right: 8px;
+  top: 8px;
+  padding: 6px;
 }
 .icon__close {
   display: block;
+  width: 18px;
+  height: 18px;
 }
 
 .modal {
-  width: 528px;
-  height: 581px;
+  width: 450px;
+  height: 609px;
+  padding: 40px;
   background-color: white;
+  @media (min-width: 1200px) {
+    width: 528px;
+    height: 581px;
+  }
 
   position: absolute;
   left: 50%;
