@@ -97,7 +97,6 @@ body {
   margin-right: auto;
   width: 100%;
   padding: 0 15px 0 15px;
-  outline: 2px solid tomato;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -425,7 +424,7 @@ body {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .section__heroic {
-    background-image: url(./../../images/hero-mob@2x.png);
+    background-image: url(./../images/hero-mob@2x.png);
   }
 }
 @media (min-width: 768px) {
@@ -435,7 +434,7 @@ body {
 }
 @media (min-width: 768px) and (min-device-pixel-ratio: 2), (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 768px) and (min-resolution: 192dpi), (min-width: 768px) and (min-resolution: 2dppx) {
   .section__heroic {
-    background-image: url(./../../images/hero-tab@2x.png);
+    background-image: url(./../images/hero-tab@2x.png);
   }
 }
 @media (min-width: 1200px) {
@@ -447,7 +446,7 @@ body {
 }
 @media (min-width: 1200px) and (min-device-pixel-ratio: 2), (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 1200px) and (min-resolution: 192dpi), (min-width: 1200px) and (min-resolution: 2dppx) {
   .section__heroic {
-    background-image: url(./../../images/hero-img@2x.png);
+    background-image: url(./../images/hero-img@2x.png);
   }
 }
 
